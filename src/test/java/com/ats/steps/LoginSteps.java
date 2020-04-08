@@ -18,7 +18,7 @@ public class LoginSteps extends CommonMethods {
 
 	@When("I enter  valid email and password")
 	public void i_enter_valid_email_and_password() {
-		login = new LoginPage();
+		login =  new LoginPage();
 		jsClick(login.login);
 		login.userEmail.sendKeys("tevfikgk38@gmail.com");
 		login.loginSubmit1.click();
